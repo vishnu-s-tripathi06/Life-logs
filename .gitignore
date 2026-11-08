@@ -1,8 +1,7 @@
 
-# Python cache files
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
 
 # Virtual environments
 .venv/
@@ -14,17 +13,15 @@ env/
 .env.*
 !.env.example
 
-# Testing and coverage
+# Testing and tooling caches
 .pytest_cache/
-.coverage
-htmlcov/
-
-# Type checking and linting
 .mypy_cache/
 .pyright/
 .ruff_cache/
+.coverage
+htmlcov/
 
-# IDE and editor settings
+# IDE settings
 .vscode/
 .idea/
 
@@ -35,7 +32,7 @@ Thumbs.db
 # Logs
 *.log
 
-# Build and distribution artifacts
+# Build artifacts
 build/
 dist/
 *.egg-info/
@@ -44,6 +41,3 @@ dist/
 *.db
 *.sqlite
 *.sqlite3
-
-# Docker overrides (if used locally)
-docker-compose.override.yml
